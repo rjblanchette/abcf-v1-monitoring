@@ -1,6 +1,7 @@
 # ABCF-v1 Governance Monitoring Brief — Search and Lens Prompt
 
-**Version:** 1.2 **Last revised:** 15 June 2026 **Change from v1.1:** Added P5 (Legal Attribution), P6 (Creative Authorship), P7 (Swiss Neutrality / Recognition Neutrality), P8 (REA Framework / Civic Legibility Packet). Full publication registry now complete as of this date.
+**Version:** 1.2 
+**Last revised:** 15 June 2026 **Change from v1.1:** Added P5 (Legal Attribution), P6 (Creative Authorship), P7 (Swiss Neutrality / Recognition Neutrality), P8 (REA Framework / Civic Legibility Packet). Full publication registry now complete as of this date.
 
 ---
 

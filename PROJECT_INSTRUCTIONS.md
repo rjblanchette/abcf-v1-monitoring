@@ -90,3 +90,4 @@ Always load the highest version of each prompt present in `prompts/`.
 | P8 | Recognition Neutrality as Institutional Design (REA/CLP) | 10.5281/zenodo.20611099 | 2026 |
 
 GitHub canonical (publications): https://github.com/rjblanchette/ABCF-v1
+https://github.com/rjblanchette/ePCT
