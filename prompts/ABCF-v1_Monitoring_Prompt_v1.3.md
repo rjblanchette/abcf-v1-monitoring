@@ -1,7 +1,7 @@
 # ABCF-v1 Governance Monitoring Brief — Search and Lens Prompt
-**Version:** 1.2
+**Version:** 1.3
 **Last revised:** 15 June 2026
-**Change from v1.1:** Added P5 (Legal Attribution), P6 (Creative Authorship), P7 (Swiss Neutrality / Recognition Neutrality), P8 (REA Framework / Civic Legibility Packet). Full publication registry now complete as of this date.
+**Change from v1.2:** Added §3a (Standards Body Search Vector) — dedicated primary-source monitoring for ISO TC 42, IEEE P2863, EU AI Act implementing acts, NIST AI RMF updates, IETF AI-relevant drafts, and W3C credentials/identity work. No other changes.
 
 ---
 
@@ -37,7 +37,7 @@ Search current and recent sources for AI governance developments relevant to ABC
 Search broadly across:
 - major news outlets
 - government and regulator publications
-- standards bodies
+- standards bodies (see §3a for dedicated standards search vector)
 - court and litigation updates
 - academic papers and preprints
 - AI lab technical blogs
@@ -70,6 +70,80 @@ Search broadly across:
 - high-risk AI systems
 - AI standards, certification, and conformity assessment
 - AI compliance regimes
+
+---
+
+## 3a. Standards Body Search Vector
+
+Run a dedicated search pass against the following bodies and instruments each run. Prioritize primary sources (working group outputs, published standards, draft texts, official meeting reports) over secondary commentary.
+
+**Fetch or search the following primary sources directly where accessible:**
+
+### ISO / IEC JTC 1 / SC 42 — Artificial Intelligence
+- ISO 42001:2023 (AI Management Systems) — monitor for amendments, corrigenda, or sector-specific guidance documents
+- ISO/IEC 42005 (AI system impact assessment) — publication status
+- ISO/IEC 42006 (AI auditing) — publication status and working draft updates
+- ISO/IEC TR 42108 (AI governance implications) — status
+- Search: `site:iso.org "42001" OR "42005" OR "42006" OR "SC 42" AI governance 2026`
+
+### IEEE Standards Association
+- IEEE P2863 — Recommended Practice for Organizational Governance of Artificial Intelligence
+- IEEE P3119 — Standard for the Procurement of Artificial Intelligence
+- IEEE P2894 — Guide for an Architectural Framework for Explainable Artificial Intelligence
+- Search: `site:standards.ieee.org "P2863" OR "P3119" OR "P2894" AI governance 2026`
+
+### EU AI Act — Implementing Acts and Delegated Regulations
+- Article 9 risk management system implementing acts
+- Article 10 data governance implementing acts
+- Article 17 quality management implementing acts
+- Article 40 harmonised standards (CEN/CENELEC mandated work)
+- Article 72 general-purpose AI model transparency implementing acts
+- Search: `EU AI Act implementing act delegated regulation 2026 site:eur-lex.europa.eu`
+- Search: `CEN CENELEC AI Act harmonised standard mandate 2026`
+
+### NIST — AI Risk Management Framework
+- NIST AI RMF 1.0 updates, sector profiles, or companion documents published 2026
+- NIST AI 100-series publications
+- NIST CAISI (Consortium for AI Safety and Infrastructure) — pre-deployment evaluation criteria
+- Search: `site:nist.gov AI RMF 2026` and `NIST CAISI pre-deployment evaluation 2026`
+
+### IETF — AI-relevant Internet Drafts
+- draft-helixar-hdp-agentic-delegation (HDP) — status update
+- IETF AIMS (AI Model Safety) working group — any new drafts
+- Any new Internet-Drafts addressing AI agent identity, delegation, or authorization
+- Search: `site:datatracker.ietf.org AI agent delegation authorization 2026`
+
+### W3C — Credentials and Identity
+- Verifiable Credentials Working Group — AI agent credential specifications
+- Decentralized Identifier (DID) Working Group — AI agent identity
+- Search: `site:w3.org AI agent identity credential authorization 2026`
+
+### OECD — AI Policy Observatory
+- OECD AI Principles implementation updates
+- OECD.AI policy tools relevant to accountability and attribution
+- Search: `site:oecd.ai accountability attribution governance 2026`
+
+### Council of Europe — AI Convention
+- Framework Convention on Artificial Intelligence (CETS 225) — ratification status, implementing guidance
+- Search: `Council of Europe AI Convention CETS 225 ratification 2026`
+
+**Standards body search output format:**
+
+For each standards body item found, produce a Part A / Part B entry using the standard item format (§5), with the following addition to Part A:
+
+- Field 10: **Standards status** — Draft / Published / Under revision / Withdrawn / Pending adoption
+
+Prioritize standards items that:
+- Introduce or modify human oversight, authorization, or accountability requirements
+- Establish conformity assessment or certification criteria
+- Address causal attribution, explainability, or audit trail requirements
+- Create or modify liability or responsibility allocation frameworks
+- Reference or interact with EU AI Act implementation obligations
+
+Deprioritize:
+- Standards that address only technical performance metrics without governance implications
+- Republication of existing standards without substantive change
+- Commentary on standards without primary source citation
 
 ---
 
@@ -123,6 +197,7 @@ For each relevant item, provide Part A and Part B.
    - Indirect relevance
    - Background relevance
    - Watchlist only
+10. **Standards status** *(standards body items only)*: Draft / Published / Under revision / Withdrawn / Pending adoption
 
 ### PART B — ABCF lens analysis
 
@@ -175,6 +250,7 @@ For each item, produce:
 
 **Prioritize items involving:**
 - new law, regulation, guidance, enforcement, or litigation
+- new or revised standards with governance, accountability, or authorization implications
 - AI accountability failures
 - auditability or assurance mechanisms
 - causal attribution problems
@@ -191,6 +267,7 @@ For each item, produce:
 - investment news unless governance-relevant
 - speculative commentary without institutional, legal, or technical substance
 - AI safety content that does not connect to governance structure, accountability, authorization, or decision autonomy
+- standards performance metrics without governance implications
 
 ---
 
@@ -204,6 +281,7 @@ For each item, produce:
 - If a source is promotional, label it.
 - If an item is policy-relevant but not architecture-relevant, say so.
 - Prefer primary sources over commentary.
+- For standards items: cite the standard number and version, not commentary about the standard.
 - Include links for every item.
 - Include publication dates.
 - Do not omit uncertainty.
@@ -230,7 +308,10 @@ Columns: Item | Coherence | Alignment | Infringement / tension | ABCF classifica
 
 **7.** Coverage gaps or source limitations
 
-**8.** RJB Publication Proximity Report *(see §9 for format)*
+**8.** Standards body status summary *(new in v1.3)*
+For each body in §3a: one line on what was found, what was not found, and what to watch.
+
+**9.** RJB Publication Proximity Report *(see §9 for format)*
 
 ---
 
@@ -470,6 +551,7 @@ The following eight publications have been deposited by the brief's author (Robe
 - Names "recognition neutrality" or an analogous restraint principle preventing premature authority attachment to contested causal explanations
 - Cites Maffeis–Mitchell–Taly 2010, Goguen–Meseguer 1982, or Shpitser–Pearl in an AI governance (not security / programming-languages) context
 - Names creative authorship attribution as a structural problem upstream of observable output data
+- Introduces a standard, conformity assessment criterion, or certification requirement that operationalizes causal attribution, identifiability, or rooted human authorization
 
 **Do NOT trigger on:**
 
@@ -481,6 +563,7 @@ The following eight publications have been deposited by the brief's author (Robe
 - "Nominal authority" in the ordinary organizational-hierarchy sense without the geometric identifiability distinction
 - Economic surplus distribution arguments not grounded in structural attribution indeterminacy
 - "Neutrality" in the conventional foreign policy sense without the recognition-restraint / premature-authority-attachment framing
+- Standards that address only technical performance metrics without governance, authorization, or attribution implications
 
 ---
 
@@ -516,7 +599,8 @@ If no items triggered either flag: "No proximity signals detected this run."
 | P8 | Recognition Neutrality as Institutional Design (REA/CLP) | 10.5281/zenodo.20611099 | 2026 |
 
 GitHub canonical (publications): https://github.com/rjblanchette/ABCF-v1
+https://github.com/rjblanchette/ePCT
 
 ---
 
-*End of prompt — version 1.2*
+*End of prompt — version 1.3*

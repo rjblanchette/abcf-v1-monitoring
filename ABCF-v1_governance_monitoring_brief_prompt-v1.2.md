@@ -500,7 +500,7 @@ If no items triggered either flag: "No proximity signals detected this run."
 |P8|Recognition Neutrality as Institutional Design (REA/CLP)|10.5281/zenodo.20611099|2026|
 
 GitHub canonical: https://github.com/rjblanchette/ABCF-v1
-
+https://github.com/rjblanchette/ePCT
 ---
 
 _End of prompt — version 1.2_
