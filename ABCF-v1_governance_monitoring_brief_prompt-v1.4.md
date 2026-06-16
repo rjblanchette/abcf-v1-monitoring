@@ -1,7 +1,7 @@
 # ABCF-v1 Governance Monitoring Brief — Search and Lens Prompt
-**Version:** 1.3
+**Version:** 1.4
 **Last revised:** 16 June 2026
-**Change from v1.2:** Registry corrections: P4 exact date confirmed (2026-05-25); P5 DOI confirmed (10.5281/zenodo.19998537); P6 DOI confirmed (10.5281/zenodo.19998766). P4 proximity section updated to include DOG and AWAP as disclosed patent-pending implementation artifacts.
+**Change from v1.3:** Added §10 (Brief File Output) — automatic production of a complete, save-ready Markdown brief file at the end of every Tier 1 run. §8 run outputs list updated to reference §10. Prompt version in brief header template updated to 1.4.
 
 ---
 
@@ -231,6 +231,44 @@ Columns: Item | Coherence | Alignment | Infringement / tension | ABCF classifica
 **7.** Coverage gaps or source limitations
 
 **8.** RJB Publication Proximity Report *(see §9 for format)*
+
+**9.** Brief file output *(see §10 for format)*
+
+---
+
+## 10. Brief File Output
+
+After completing all run outputs in §8, produce the complete brief as a single Markdown file formatted for saving to the `briefs/` directory.
+
+**Filename convention:** `YYYY-MM-DD_Brief_RunN.md` where the date is the run date and N is the run number.
+
+**Instructions:**
+- The file must contain the complete brief exactly as produced — all items (Part A and Part B), all run outputs (§8 items 1–8), and the RJB Publication Proximity Report.
+- Do not summarize or truncate. The saved file is the canonical record of the run.
+- Include the standard brief header at the top of the file:
+
+```
+# ABCF-v1 Governance Monitoring Brief
+**Run date:** YYYY-MM-DD
+**Run number:** N
+**Prompt version:** 1.4
+**Corpus scope:** N/A (Tier 1 — live search)
+```
+
+- Include the standard brief footer at the bottom of the file:
+
+```
+---
+*All outputs are InterpretationArtifacts at Stage 01.*
+*No action authorized without RJ's explicit AuthorizationAct.*
+*Save to: briefs/YYYY-MM-DD_Brief_RunN.md*
+```
+
+- After producing the file, state the filename explicitly so RJ can save it to the correct location:
+
+> **File ready to save:** `briefs/YYYY-MM-DD_Brief_RunN.md`
+
+Claude produces this file as an artifact at the end of every Tier 1 run. It does not ask whether to produce it — production is automatic.
 
 ---
 
@@ -526,4 +564,4 @@ GitHub canonical (publications): https://github.com/rjblanchette/ABCF-v1
 
 ---
 
-*End of prompt — version 1.3*
+*End of prompt — version 1.4*
