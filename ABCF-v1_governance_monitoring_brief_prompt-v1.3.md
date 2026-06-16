@@ -1,7 +1,7 @@
 # ABCF-v1 Governance Monitoring Brief — Search and Lens Prompt
-
-**Version:** 1.2 
-**Last revised:** 15 June 2026 **Change from v1.1:** Added P5 (Legal Attribution), P6 (Creative Authorship), P7 (Swiss Neutrality / Recognition Neutrality), P8 (REA Framework / Civic Legibility Packet). Full publication registry now complete as of this date.
+**Version:** 1.3
+**Last revised:** 16 June 2026
+**Change from v1.2:** Registry corrections: P4 exact date confirmed (2026-05-25); P5 DOI confirmed (10.5281/zenodo.19998537); P6 DOI confirmed (10.5281/zenodo.19998766). P4 proximity section updated to include DOG and AWAP as disclosed patent-pending implementation artifacts.
 
 ---
 
@@ -11,22 +11,22 @@ You are producing an AI governance monitoring brief using the ABCF-v1 lens.
 
 Assume you have no prior knowledge of ABCF-v1. Use the working definition below.
 
-**ABCF-v1 working definition:** ABCF-v1 is a proposed formal governance architecture for AI systems. It is built around rooted human authorization, structural causal identifiability, and explicit containment boundaries.
+**ABCF-v1 working definition:**
+ABCF-v1 is a proposed formal governance architecture for AI systems. It is built around rooted human authorization, structural causal identifiability, and explicit containment boundaries.
 
 Its core claim is that causal attribution in AI-assisted decisions can become structurally indeterminate above a computable threshold, not merely difficult. ABCF-v1 does not claim to solve that unsolvable attribution class. It governs below that threshold by asking what can still be bounded, authorized, audited, contained, or withheld.
 
 **Core ABCF ideas:**
 
 1. **Rooted human authorization:** AI systems should not generate their own governance authority. Authority must originate from an identifiable human or institution through an explicit authorization act.
-    
+
 2. **Structural causal identifiability:** Governance must distinguish between decisions where causal contribution can be meaningfully traced and decisions where attribution becomes structurally indeterminate.
-    
+
 3. **Containment boundaries:** Interpretation must not become authority. Pattern recognition must not become mandate. Drafts, outputs, metrics, or model behavior must not become governance instruments without explicit authorization.
-    
+
 4. **Execution / admissibility boundaries:** AI outputs should pass through explicit checks before being treated as usable, reliable, relied upon, or authorized.
-    
+
 5. **Human decision autonomy:** AI governance should preserve the human capacity to decide, not replace it through overconfidence, distortion, hidden persuasion, or false authority.
-    
 
 ---
 
@@ -35,7 +35,6 @@ Its core claim is that causal attribution in AI-assisted decisions can become st
 Search current and recent sources for AI governance developments relevant to ABCF-v1 or any of its architectural components.
 
 Search broadly across:
-
 - major news outlets
 - government and regulator publications
 - standards bodies
@@ -120,19 +119,20 @@ For each relevant item, provide Part A and Part B.
 7. Why it was selected — **include any RJB Publication Proximity flags here (see §9)**
 8. Relevant ABCF component(s)
 9. Relevance level:
-    - Direct relevance
-    - Indirect relevance
-    - Background relevance
-    - Watchlist only
+   - Direct relevance
+   - Indirect relevance
+   - Background relevance
+   - Watchlist only
 
 ### PART B — ABCF lens analysis
 
 Evaluate the item through three categories:
 
-**1. Coherence:** Does the item make sense within the ABCF frame? Does it involve attribution, authorization, containment, admissibility, provenance, decision autonomy, or governance boundaries?
+**1. Coherence:**
+Does the item make sense within the ABCF frame? Does it involve attribution, authorization, containment, admissibility, provenance, decision autonomy, or governance boundaries?
 
-**2. Alignment:** Does the item support or move toward ABCF-compatible governance? Examples:
-
+**2. Alignment:**
+Does the item support or move toward ABCF-compatible governance? Examples:
 - clearer human authorization
 - stronger provenance
 - meaningful auditability
@@ -141,8 +141,8 @@ Evaluate the item through three categories:
 - recognition of attribution limits
 - preservation of human decision autonomy
 
-**3. Infringement / tension:** Does the item violate, bypass, or weaken ABCF principles? Examples:
-
+**3. Infringement / tension:**
+Does the item violate, bypass, or weaken ABCF principles? Examples:
 - liability assigned without real causal visibility
 - ceremonial human oversight
 - AI-generated outputs treated as authority
@@ -162,19 +162,18 @@ For each item, produce:
 - **Inferences:** Reasonable interpretation, clearly marked.
 - **Unknowns:** What cannot be determined from the available source.
 - **ABCF classification:** Choose one:
-    - Coherent and aligned
-    - Coherent but incomplete
-    - Coherent problem signal
-    - Misaligned / infringement risk
-    - Background only
-    - Not materially relevant
+  - Coherent and aligned
+  - Coherent but incomplete
+  - Coherent problem signal
+  - Misaligned / infringement risk
+  - Background only
+  - Not materially relevant
 
 ---
 
 ## 6. Prioritization
 
 **Prioritize items involving:**
-
 - new law, regulation, guidance, enforcement, or litigation
 - AI accountability failures
 - auditability or assurance mechanisms
@@ -187,7 +186,6 @@ For each item, produce:
 - technical findings affecting traceability, identifiability, or representation stability
 
 **Exclude or deprioritize:**
-
 - generic AI product launches
 - hype pieces
 - investment news unless governance-relevant
@@ -217,7 +215,8 @@ For each item, produce:
 
 End the brief with:
 
-**1. Summary matrix** Columns: Item | Coherence | Alignment | Infringement / tension | ABCF classification
+**1. Summary matrix**
+Columns: Item | Coherence | Alignment | Infringement / tension | ABCF classification
 
 **2.** Top 3 structurally relevant items this run
 
@@ -231,7 +230,7 @@ End the brief with:
 
 **7.** Coverage gaps or source limitations
 
-**8.** RJB Publication Proximity Report _(see §9 for format)_
+**8.** RJB Publication Proximity Report *(see §9 for format)*
 
 ---
 
@@ -245,19 +244,22 @@ The following eight publications have been deposited by the brief's author (Robe
 - **(b)** independently arrives at a structurally convergent claim, terminology, or formal object from the concept lists below.
 
 **Flag format:**
-
 - If (a): add `[DIRECT CITATION — RJB PUBLICATION: {short title}]` to Part A, field 7.
 - If (b): add `[PROXIMITY SIGNAL — RJB PUBLICATION]` to Part A, field 7, and name the specific convergent concept(s).
 
 **At the end of the brief,** produce:
 
-> **RJB PUBLICATION PROXIMITY REPORT — {run date}** Table of all triggered items with matched concept(s) and a one-line structural note. If none triggered: "No proximity signals detected this run."
+> **RJB PUBLICATION PROXIMITY REPORT — {run date}**
+> Table of all triggered items with matched concept(s) and a one-line structural note.
+> If none triggered: "No proximity signals detected this run."
 
 ---
 
 ### 9.1 P1 — Structural Limits of AI Accountability
 
-**Title:** Structural Limits of AI Accountability: Institutional Rank and the Geometry of Governance **DOI:** 10.5281/zenodo.18866882 **Date:** March 4, 2026
+**Title:** Structural Limits of AI Accountability: Institutional Rank and the Geometry of Governance
+**DOI:** 10.5281/zenodo.18866882
+**Date:** 2026-03-04
 
 **Concepts to match:**
 
@@ -286,7 +288,9 @@ The following eight publications have been deposited by the brief's author (Robe
 
 ### 9.2 P2 — TR-CNI-1.1: Causal Non-Interference
 
-**Title:** Causal Non-Interference: Formal Definition and Core Theorems **DOI:** 10.5281/zenodo.20025045 **Date:** March–April 2026
+**Title:** Causal Non-Interference: Formal Definition and Core Theorems
+**DOI:** 10.5281/zenodo.20025045
+**Date:** 2026-03 / 2026-04
 
 **Concepts to match:**
 
@@ -313,7 +317,9 @@ The following eight publications have been deposited by the brief's author (Robe
 
 ### 9.3 P3 — TR-LSPD-1.0 + TR-SA-1.1: Latent-Space Extensions
 
-**Title:** Formal Extensions to Structural Probe Domain and Authority-Safety Theory for Latent-Space Predictive Architectures **DOI:** 10.5281/zenodo.19799074 **Date:** April 26, 2026
+**Title:** Formal Extensions to Structural Probe Domain and Authority-Safety Theory for Latent-Space Predictive Architectures
+**DOI:** 10.5281/zenodo.19799074
+**Date:** 2026-04-26
 
 **TR-LSPD-1.0 concepts to match:**
 
@@ -349,7 +355,9 @@ The following eight publications have been deposited by the brief's author (Robe
 
 ### 9.4 P4 — Attribution, Surplus, and Governance (Economic Domain)
 
-**Title:** Attribution, Surplus, and Governance: Extending Structural Indeterminacy to the Economic Domain **DOI:** 10.5281/zenodo.20394642 **Date:** 2026
+**Title:** Attribution, Surplus, and Governance: Extending Structural Indeterminacy to the Economic Domain
+**DOI:** 10.5281/zenodo.20394642
+**Date:** 2026-05-25
 
 **Concepts to match:**
 
@@ -358,6 +366,8 @@ The following eight publications have been deposited by the brief's author (Robe
 - **Attribution Prior Condition (economic domain):** attribution resolution required before surplus can be allocated, taxed, or governed; economic-domain analogue of the deployment gate admissibility precondition.
 - **Structural Indeterminacy → economic ungovernability:** any system generating surplus under attribution indeterminacy produces structurally ungovernable surplus absent an attribution prior condition.
 - **Convergence with Magnifica Humanitas (Leo XIV, 2026):** paper maps three concepts against encyclical's five principal concerns; convergence across independent derivational paths treated as epistemological evidence of necessity.
+- **Declared-Origin Gate (DOG):** pre-execution structural constraint requiring explicit origin declaration before a work product is admitted to institutional action; enforces the Attribution Prior Condition at the level of document provenance. Published at GitHub: rjblanchette/DOG. Patent pending as of 2026-05-25.
+- **AI-Assisted Work Admissibility Packet (AWAP):** closed-format gate (exactly eight artifacts) establishing provenance, responsibility, and source legibility at the moment a work product enters an institutional workflow; instantiates the Non-Conversion Principle. Published at GitHub: rjblanchette/AWAP. Patent pending as of 2026-05-25.
 - **Declared-Origin Gate (DOG) declaration and Conception Event Anchor log:** used as provenance instruments in the paper's own supplementary record; demonstrating in practice what the paper argues for in theory.
 - **"Fourth paper in a series extending the Structural Limit Theorem to specific governance domains"**
 
@@ -365,69 +375,76 @@ The following eight publications have been deposited by the brief's author (Robe
 
 ### 9.5 P5 — Structural Indeterminacy and the Limits of Legal Attribution
 
-**Title:** Structural Indeterminacy and the Limits of Legal Attribution in AI Systems: A Translation Between Formal Impossibility and Legal-Facing Governance Failure **DOI:** 10.5281/zenodo.19998537 **Date:** 2026
+**Title:** Structural Indeterminacy and the Limits of Legal Attribution in AI Systems
+**DOI:** 10.5281/zenodo.19998537
+**Date:** 2026
 
 **Concepts to match:**
 
-- **Translation between formal impossibility and legal-facing governance failure:** the paper maps SLT / Accountability Incompleteness Theorem results onto the empirical record of legal proceedings.
-- **Three legal domains:** criminal risk assessment, algorithmic discrimination, AI-assisted medical decision-making — all shown to instantiate structural indeterminacy rather than transparency or oversight failure.
-- **"These are not failures of transparency, documentation, or oversight design. They are instances of structural indeterminacy."** — key framing claim for the legal translation.
-- **Accountability Incompleteness Theorem (Tibebu 2026):** cited as independently derived parallel result establishing that single-locus accountability frameworks fail structurally above a computable compound autonomy threshold. Paper establishes SLT–Tibebu as a two-stage impossibility.
-- **Compound autonomy threshold:** the computable threshold above which single-locus accountability frameworks structurally fail, independent of any policy or design choice.
-- **"Governance architecture whose organizing principle is the refusal to form authority where attribution cannot be structurally supported":** defines the class of architecture the impossibility result demands.
-- **Attribution-prior governance:** concrete instantiation of the required architecture class described.
-- **Admissible observation regime:** legal proceedings and audits operate within constrained observation regimes that cannot resolve structural indeterminacy — the formal predicate for institutional failure.
+- **Translation between formal impossibility and legal-facing governance failure:** maps SLT / AIT results onto legal proceedings record.
+- **Three legal domains:** criminal risk assessment, algorithmic discrimination, AI-assisted medical decision-making — all instances of structural indeterminacy, not transparency failure.
+- **"These are not failures of transparency, documentation, or oversight design. They are instances of structural indeterminacy."**
+- **Accountability Incompleteness Theorem (Tibebu 2026):** independently derived parallel result; SLT–Tibebu as two-stage impossibility.
+- **Compound autonomy threshold:** computable threshold above which single-locus accountability frameworks structurally fail.
+- **"Governance architecture whose organizing principle is the refusal to form authority where attribution cannot be structurally supported"**
+- **Attribution-prior governance:** concrete instantiation of the required architecture class.
+- **Admissible observation regime:** legal proceedings operate within constrained observation regimes that cannot resolve structural indeterminacy.
 
 ---
 
 ### 9.6 P6 — Creative Authorship and Structural Indeterminacy
 
-**Title:** Creative Authorship and Structural Indeterminacy: Attribution-Prior Governance in AI-Assisted Art Production **DOI:** 10.5281/zenodo.19998766 **Date:** 2026
+**Title:** Creative Authorship and Structural Indeterminacy: Attribution-Prior Governance in AI-Assisted Art Production
+**DOI:** 10.5281/zenodo.19998766
+**Date:** 2026
 
 **Concepts to match:**
 
-- **Creative authorship as a fourth candidate domain:** SLT extended to creative authorship disputes; causal attribution of a work's origin is required for legal and institutional purposes but the relevant causal variable is upstream of any observable data.
+- **Creative authorship as a fourth candidate domain:** SLT extended to creative authorship disputes; relevant causal variable is upstream of any observable data.
 - **"Output inspection, generation logs, percentage-of-AI-involvement metrics, and stylistic analysis all operate on the surface of the problem without reaching the causal question."**
-- **Mapping to AIT Axiom 1 (Attributability) failure:** creative authorship attribution failure mapped onto the Accountability Incompleteness Theorem's Axiom 1 failure condition.
-- **Mapping to L-SLT / Representation Indeterminacy:** creative authorship condition mapped to latent-space RI; origin causal variable is upstream of observable surface.
-- **Systemic Discipline for Cognitive Architecture (SDCA v2.0):** concrete instantiation of attribution-prior governance in the creative domain; architecture designed from the problem, not patched onto it.
-- **Minimum definition of art adequate to the governance problem:** paper advances a governance-functional definition of art distinguishing it from AI output.
-- **Current industry approaches address the wrong causal variable:** framing claim distinguishing surface attribution (logs, metrics, stylistic analysis) from structural attribution.
-- **Gate architecture encoding the correct causal variable:** SDCA's gate implements an attribution-prior check before work product acquires institutional standing.
+- **Mapping to AIT Axiom 1 (Attributability) failure.**
+- **Mapping to L-SLT / Representation Indeterminacy.**
+- **Systemic Discipline for Cognitive Architecture (SDCA v2.0):** attribution-prior governance instantiation in the creative domain.
+- **Minimum definition of art adequate to the governance problem.**
+- **Current industry approaches address the wrong causal variable.**
+- **Gate architecture encoding the correct causal variable.**
 
 ---
 
 ### 9.7 P7 — Swiss Neutrality and the Architecture of National Coherence
 
-**Title:** Swiss Neutrality and the Architecture of National Coherence **DOI:** 10.5281/zenodo.20596277 **Date:** 2026
+**Title:** Swiss Neutrality and the Architecture of National Coherence
+**DOI:** 10.5281/zenodo.20596277
+**Date:** 2026
 
 **Concepts to match:**
 
-- **Recognition neutrality:** governance discipline preserving democratic legitimacy by preventing constitutional authority from attaching prematurely to contested causal explanations under conditions of structural indeterminacy.
-- **Four functions of neutrality:** survival neutrality → federal neutrality → active neutrality → recognition neutrality; each a response to a distinct threat to Swiss coherence.
-- **Constitutional authority attaching prematurely to disputed explanations:** the structural governance failure recognition neutrality is designed to prevent; analogue of interpretation → authority leakage in ABCF.
-- **1992 EEA referendum as illustrative case:** democratic legitimacy becomes vulnerable when contested causal claims (not shared observable conditions) acquire constitutional standing.
-- **"Observable conditions widely recognized while causal structures producing them remain contested":** the structural condition underlying the need for recognition neutrality; governance-domain analogue of Ψ-state events.
-- **Neutrality as an evolving architecture of national coherence:** neutrality framed as a structural governance mechanism, not merely a foreign policy posture.
+- **Recognition neutrality:** governance discipline preventing constitutional authority from attaching prematurely to contested causal explanations under structural indeterminacy.
+- **Four functions of neutrality:** survival → federal → active → recognition neutrality.
+- **Constitutional authority attaching prematurely to disputed explanations:** the structural failure recognition neutrality prevents.
+- **1992 EEA referendum as illustrative case.**
+- **"Observable conditions widely recognized while causal structures producing them remain contested"**
+- **Neutrality as an evolving architecture of national coherence.**
 
 ---
 
-### 9.8 P8 — Recognition Neutrality as Institutional Design (REA / CLP)
+### 9.8 P8 — Recognition Neutrality as Institutional Design (REA/CLP)
 
-**Title:** Recognition Neutrality as Institutional Design: The Recognition–Explanation–Authorization Framework **DOI:** 10.5281/zenodo.20611099 **Date:** 2026
+**Title:** Recognition Neutrality as Institutional Design: The Recognition–Explanation–Authorization Framework
+**DOI:** 10.5281/zenodo.20611099
+**Date:** 2026
 
 **Concepts to match:**
 
-- **Recognition–Explanation–Authorization (REA) framework:** reading discipline enforcing the sequence recognition precedes explanation precedes authorization; applied analytically to any public decision process.
-- **Civic Legibility Packet (CLP):** public-facing instrument organizing observable conditions, competing explanatory frameworks, and decision object into three distinct compartments maintained by explicit invariants.
-- **Three-compartment structure of CLP:** (1) observable conditions, (2) competing explanatory frameworks, (3) decision object — maintained separately by explicit invariants; analogue of ABCF containment boundary and admissibility gate.
-- **Invariants maintaining compartment separation:** explicit formal conditions preventing explanatory frameworks from acquiring the standing of observable conditions and preventing the decision object from pre-resolving contested explanations.
-- **Four structural limits of REA/CLP:** stress-testing surfaces four limits converging on a single architectural conclusion — the instrument is necessary but not sufficient.
-- **Governing constitutional field:** REA/CLP requires a governing constitutional field holding classification authority, integrity conditions, maintenance protocols, and symmetry enforcement; its design is specified as a requirement without being satisfied in this paper.
-- **"The instrument is necessary. It is not sufficient.":** key structural claim; identifies the requirement for a governing constitutional field.
-- **Swiss democratic practice test cases:** EEA referendum 1992 (retrospective); AVS 13th pension vote 2024 (prospective).
-- **Recognition precedes explanation precedes authorization:** the sequencing invariant of REA; analogue of ABCF's admissibility precondition sequence (identifiability check precedes authorization act).
-- **"Constitutional authority attaching prematurely to contested causal explanations":** the failure mode REA is designed to prevent; governance-domain instantiation of the Audit Illusion / authority leakage.
+- **Recognition–Explanation–Authorization (REA) framework:** reading discipline enforcing recognition precedes explanation precedes authorization.
+- **Civic Legibility Packet (CLP):** three-compartment instrument: (1) observable conditions, (2) competing explanatory frameworks, (3) decision object.
+- **Invariants maintaining compartment separation.**
+- **Four structural limits of REA/CLP:** converge on requirement for a governing constitutional field.
+- **Governing constitutional field:** holds classification authority, integrity conditions, maintenance protocols, symmetry enforcement.
+- **"The instrument is necessary. It is not sufficient."**
+- **Swiss democratic practice test cases:** EEA referendum 1992; AVS 13th pension vote 2024.
+- **Recognition precedes explanation precedes authorization:** sequencing invariant; analogue of ABCF admissibility precondition sequence.
+- **"Constitutional authority attaching prematurely to contested causal explanations"**
 
 ---
 
@@ -450,6 +467,8 @@ The following eight publications have been deposited by the brief's author (Robe
 - Applies the Clarke Generalized Jacobian or analogous non-smooth analysis to latent-space governance problems
 - Names a "latent residual" or analogous object as a causal non-identifiability witness
 - Argues that surplus from AI systems is structurally ungovernable absent attribution resolution
+- Proposes a pre-execution origin declaration gate or provenance instrument as a condition of admissibility for AI-assisted work products (analogous to DOG — P4)
+- Proposes a closed-format provenance packet or admissibility instrument for AI-assisted work at the point of institutional workflow entry (analogous to AWAP — P4)
 - Applies the Accountability Incompleteness Theorem (Tibebu 2026) or the SLT–Tibebu two-stage impossibility to legal, economic, or creative governance problems
 - Proposes a sequenced recognition → explanation → authorization discipline for public or institutional decision-making
 - Names "recognition neutrality" or an analogous restraint principle preventing premature authority attachment to contested causal explanations
@@ -466,6 +485,7 @@ The following eight publications have been deposited by the brief's author (Robe
 - "Nominal authority" in the ordinary organizational-hierarchy sense without the geometric identifiability distinction
 - Economic surplus distribution arguments not grounded in structural attribution indeterminacy
 - "Neutrality" in the conventional foreign policy sense without the recognition-restraint / premature-authority-attachment framing
+- Generic provenance or watermarking proposals without the admissibility-gate / fail-closed architecture (does not trigger DOG/AWAP proximity)
 
 ---
 
@@ -477,31 +497,33 @@ At the end of each brief, after all run outputs (§8), produce:
 
 **RJB PUBLICATION PROXIMITY REPORT — {run date}**
 
-|Item|Flag type|Publication(s)|Matched concept(s)|Structural note|
+| Item | Flag type | Publication(s) | Matched concept(s) | Structural note |
 |---|---|---|---|---|
-|{item title}|DIRECT CITATION or PROXIMITY SIGNAL|P1–P8|{concept name}|{one line}|
+| {item title} | DIRECT CITATION or PROXIMITY SIGNAL | P1–P8 | {concept name} | {one line} |
 
 If no items triggered either flag: "No proximity signals detected this run."
 
-**Proximity trend note:** _(Optional after three or more runs — note whether any concept cluster is accumulating signals across runs. Accumulation may indicate field convergence toward a concept independently arrived at in the RJB corpus.)_
+**Proximity trend note:** *(Optional after three or more runs — note whether any concept cluster is accumulating signals across runs. Accumulation may indicate field convergence toward a concept independently arrived at in the RJB corpus.)*
 
 ---
 
-## Appendix: RJB Publication Registry (complete as of 15 June 2026)
+## Appendix: RJB Publication Registry (complete as of 16 June 2026)
 
-|Ref|Short title|DOI|Date|
+| Ref | Short title | DOI | Date |
 |---|---|---|---|
-|P1|Structural Limits of AI Accountability|10.5281/zenodo.18866882|March 4, 2026|
-|P2|TR-CNI-1.1: Causal Non-Interference|10.5281/zenodo.20025045|March–April 2026|
-|P3|TR-LSPD-1.0 + TR-SA-1.1: Latent-Space Extensions|10.5281/zenodo.19799074|April 26, 2026|
-|P4|Attribution, Surplus, and Governance (Economic Domain)|10.5281/zenodo.20394642|2026|
-|P5|Structural Indeterminacy and Legal Attribution|10.5281/zenodo.19998537|2026|
-|P6|Creative Authorship and Structural Indeterminacy|10.5281/zenodo.19998766|2026|
-|P7|Swiss Neutrality and National Coherence|10.5281/zenodo.20596277|2026|
-|P8|Recognition Neutrality as Institutional Design (REA/CLP)|10.5281/zenodo.20611099|2026|
+| P1 | Structural Limits of AI Accountability | 10.5281/zenodo.18866882 | 2026-03-04 |
+| P2 | TR-CNI-1.1: Causal Non-Interference | 10.5281/zenodo.20025045 | 2026-03 / 2026-04 |
+| P3 | TR-LSPD-1.0 + TR-SA-1.1: Latent-Space Extensions | 10.5281/zenodo.19799074 | 2026-04-26 |
+| P4 | Attribution, Surplus, and Governance (Economic Domain) | 10.5281/zenodo.20394642 | 2026-05-25 |
+| P5 | Structural Indeterminacy and Legal Attribution | 10.5281/zenodo.19998537 | 2026 |
+| P6 | Creative Authorship and Structural Indeterminacy | 10.5281/zenodo.19998766 | 2026 |
+| P7 | Swiss Neutrality and National Coherence | 10.5281/zenodo.20596277 | 2026 |
+| P8 | Recognition Neutrality as Institutional Design (REA/CLP) | 10.5281/zenodo.20611099 | 2026 |
 
-GitHub canonical: https://github.com/rjblanchette/ABCF-v1
-https://github.com/rjblanchette/ePCT
+**Note:** Exact Zenodo deposit dates for P2, P5, P6, P7, and P8 are not yet confirmed in project context. Date fields show known precision. Update when exact dates are retrieved from Zenodo records.
+
+GitHub canonical (publications): https://github.com/rjblanchette/ABCF-v1
+
 ---
 
-_End of prompt — version 1.2_
+*End of prompt — version 1.3*
