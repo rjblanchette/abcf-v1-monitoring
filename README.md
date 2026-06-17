@@ -3,7 +3,6 @@
 ABCF-v1 AI Governance Monitoring System — two-tier research and IP tracking tool.
 
 ---
-
 ## Structure
 
 ```
@@ -11,14 +10,18 @@ abcf-v1-monitoring/
 │
 ├── PROJECT_INSTRUCTIONS.md          ← Claude Project instructions
 ├── README.md                        ← this file
+├── CHANGELOG.md                     ← version history
 │
 ├── prompts/
-│   ├── ABCF-v1_Monitoring_Prompt_v1.2.md     ← Tier 1: live search brief
-│   ├── ABCF-v1_Corpus_Layer1_v1.0.md         ← Tier 2: research positioning
+│   ├── ABCF-v1_Monitoring_Prompt_v2.0.md     ← Tier 1: live search brief
+│   ├── ABCF-v1_Corpus_Layer1_v1.1.md         ← Tier 2: research positioning
 │   └── ABCF-v1_Corpus_Layer2_v1.0.md         ← Tier 2: IP decision nodes
 │
-└── briefs/
-    └── YYYY-MM-DD_Brief_RunN.md               ← saved Tier 1 outputs
+├── briefs/
+│   └── YYYY-MM-DD_Brief_RunN.md               ← saved Tier 1 outputs
+│
+└── Reports/
+    └── YYYY-MM-DD_LayerN_RunN_SCOPE-*.md      ← saved Tier 2 outputs
 ```
 
 ---
@@ -51,11 +54,11 @@ Claude loads the relevant prompt from `prompts/` and analyses all briefs in `bri
 
 ## Tier summary
 
-| Tier | Prompt | Purpose | Input | Output |
-|---|---|---|---|---|
-| 1 | Monitoring_Prompt_v1.2 | Live AI governance surveillance | Web search | Dated brief (.md) |
-| 2 / Layer 1 | Corpus_Layer1_v1.0 | Research positioning | Brief corpus | Positioning report |
-| 2 / Layer 2 | Corpus_Layer2_v1.0 | IP decision node mapping | Brief corpus | Counsel brief |
+| Tier        | Prompt                 | Purpose                         | Input        | Output             |
+| ----------- | ---------------------- | ------------------------------- | ------------ | ------------------ |
+| 1           | Monitoring_Prompt_v2.0 | Live AI governance surveillance | Web search   | Dated brief (.md)  |
+| 2 / Layer 1 | Corpus_Layer1_v1.1     | Research positioning            | Brief corpus | Positioning report |
+| 2 / Layer 2 | Corpus_Layer2_v1.0     | IP decision node mapping        | Brief corpus | Counsel brief      |
 
 ---
 

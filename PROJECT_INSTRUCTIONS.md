@@ -20,7 +20,7 @@ All prompts are versioned knowledge files in `prompts/`. All briefs are stored i
 
 Say: **"Run the monitoring prompt"** or **"Run Tier 1"**
 
-Claude loads `prompts/ABCF-v1_Monitoring_Prompt_v1.2.md` (or the highest version present), executes all search vectors, and produces a full brief. Save the output to `briefs/` with the correct filename before closing the session.
+Claude loads `prompts/ABCF-v1_Monitoring_Prompt_v2.0.md` (or the highest version present in `prompts/`), executes all search vectors, and produces a full brief. Save the output to `briefs/` with the correct filename before closing the session.
 
 ### Tier 2, Layer 1 — Research positioning analysis
 
