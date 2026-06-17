@@ -1,6 +1,7 @@
 # ABCF-v1 Corpus Analysis — Layer 1: Research Positioning
-**Version:** 1.0
-**Last revised:** 15 June 2026
+**Version:** 1.1
+**Last revised:** 17 June 2026
+**Change from v1.0:** §8 (Recommended search vectors for next Tier 1 run) is now the **sole authoritative source** of next-Tier-1 search vector guidance. The Tier 1 monitoring prompt's per-run "Suggested searches for next run" output has been retired (see Tier 1 monitoring prompt v2.0). Framing and a cadence note added to §8. No change to analytical framework, epistemic rules, or any other section.
 
 ---
 
@@ -146,8 +147,15 @@ Close with: **"This is a Stage 01 InterpretationArtifact. No action should be ta
 
 ### Section 8 — Recommended search vectors for next Tier 1 run
 
-Based on domain coverage gaps and weak signal watch list, provide 8–12 targeted search queries for the next Tier 1 monitoring run. Flag which are new vectors and which are refinements of existing ones.
+**This section is the sole authoritative source of next-Tier-1 search vector guidance.** As of Tier 1 monitoring prompt v2.0, individual Tier 1 briefs no longer emit a per-run "Suggested searches for next run" list. Next-run vector guidance is generated *here*, from the corpus-wide view — domain coverage gaps across all briefs in scope plus the §6 weak signal watch list — rather than from any single run's narrower vantage.
+
+Based on the domain coverage assessment (Section 5), the weak signal watch list (Section 6), and the field convergence assessment (Section 3), provide 8–12 targeted search queries for the next Tier 1 monitoring run. For each query:
+
+- Flag whether it is a **new vector** or a **refinement** of an existing standing vector (Tier 1 prompt §3 / §3a / §3b).
+- Note which RJB domain (P1–P8) or weak signal it is intended to surface.
+
+**Cadence note:** Tier 1 runs more frequently than Layer 1. Between Layer 1 passes, Tier 1 runs operate on the standing prompt vectors (§3 / §3a / §3b) alone — this is by design, as the standing vectors are the primary engine and these recommendations are a refinement layer. These recommended vectors therefore refresh on the Layer 1 cadence. If Tier 1 cadence materially outpaces Layer 1, run Layer 1 to refresh next-run guidance.
 
 ---
 
-*End of Layer 1 prompt — version 1.0*
+*End of Layer 1 prompt — version 1.1*
